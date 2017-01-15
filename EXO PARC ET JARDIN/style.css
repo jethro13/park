@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+tr {
+  background-color: deepskyblue;
+  color:white;
+  text-align: center;
+  height: 60px;
+  font-weight: bold;
+}
+
+td:not(:first-child){
+  display: none;
+}
+#prout {
+  height: 100px;
+  background-color: red
+}
+table, th, td {
+   border: 1px solid black;
+}
+#myTablePlaceholder {
+  background-color: black;
+}
+tr.appendChild(AddCellContents(data.d, i,'soustype'));
+tr.appendChild(AddCellContents(data.d, i,'codepostal'));
+tr.appendChild(AddCellContents(data.d, i,'ville'));
+tr.appendChild(AddCellContents(data.d, i,'latitude'));
+tr.appendChild(AddCellContents(data.d, i,'longitude'));
